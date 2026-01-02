@@ -9,5 +9,5 @@ Optional dividend yield support for more realistic modeling
 Visualizations of the binomial tree and payoff diagrams ( via Matplotlip )
 
 #Motivation
-Option pricing is a cornerstone for quantitative finance. The binomial model provides an intuitive, discrete-time approximation to thr Black-Scholes framework, making it ideal for educational purposes and scenarios with path-dependent features like early exercise. 
+Option pricing is a cornerstone for quantitative finance. The binomial model provides an intuitive, discrete-time approximation to the Black-Scholes framework, making it ideal for educational purposes and scenarios with path-dependent features like early exercise. 
 

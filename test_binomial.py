@@ -1,3 +1,4 @@
+from binomial import test_binomial
 import numpy as np
 from scipy.stats import norm
 
