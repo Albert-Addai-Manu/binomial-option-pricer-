@@ -48,3 +48,7 @@ def binomial_price(S0, K, T, r, sigma, N, option_type="call", american=False):
                 option[j] = eu_value
     
     return option[0]
+
+
+def binomial_option_price():
+    return None

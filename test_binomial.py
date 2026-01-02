@@ -1,6 +1,8 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from scipy.stats import norm
+
+from binomial import binomial_price
+
 
 # Black-Scholes for comparison
 def black_scholes(S0, K, T, r, sigma, option_type="call"):
@@ -33,10 +35,6 @@ bs_put = black_scholes(S0, K, T, r, sigma, "put")
 print(f"European Put (BS): {bs_put:.4f}")
 american_put = binomial_price(S0, K, T, r, sigma, N=200, option_type="put", american=True)
 print(f"American Put (N=200): {american_put:.4f} (early exercise premium: {american_put - bs_put:.4f})")
-
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.stats import norm
 
 # Black-Scholes function ...
 # Parameters ...
